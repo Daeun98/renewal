@@ -1,0 +1,88 @@
+[
+    {
+        "Title" : "아키텍쳐",
+        "Sentence" : "레고® 아키텍처와 함께 전세계 유명 건축물을 만들어 보세요. 유명 건축물들을 집안에서 감상해보세요!",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back1.jpg",
+        "TitlePhoto" : "images/more_logo1.png"
+
+    },
+    {
+        "Title" : "스파이더맨",
+        "Sentence" : "스파이더맨을 좋아하는 레고 팬을 위해 남녀노소 모두가 즐길 수 있는 스파이더맨 세트를 소개합니다. 인기 슈퍼히어로 스파이더맨과 함께 예리한 감각을 활용해 범죄에 맞서 보세요.",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back2.jpg",
+        "TitlePhoto" : "images/more_logo2.png"
+
+    },{
+        "Title" : "배트맨™",
+        "Sentence" : "고담 시티의 밤이 깊었습니다. 전 세계 레고 팬을 위한 배트맨 세트를 만나 보세요. 일명 다크 나이트로 불리는 인기 히어로 배트맨과 함께 악당들에게 맞서 보세요.",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back3.jpg",
+        "TitlePhoto" : "images/more_logo3.png"
+
+    },{
+        "Title" : "쥬라기 월드™",
+        "Sentence" : "위풍당당한 모습의 공룡들과 함께 레고® 쥬라기 공원™의 지상, 공중, 수중을 탐험하고, 구조 임무에 동참하여 영웅이 되어 보세요.",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back4.jpg",
+        "TitlePhoto" : "images/more_logo4.png"
+
+    },{
+        "Title" : "디즈니™",
+        "Sentence" : "레고® 디즈니 프린세스와 함께 내가 좋아하는 동화의 한장면을 연출해보고 나만의 동화도 만들어 보세요!",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back5.jpg",
+        "TitlePhoto" : "images/more_logo5.png"
+
+    },{
+        "Title" : "겨울왕국 2",
+        "Sentence" : "모험을 시작할 준비를 하세요! 레고® | 디즈니 겨울왕국 2와 함께 디즈니의 대작 영화 겨울왕국 2의 멋진 장면들을 재현하고 상상력의 나래를 펼쳐보아요! 마법을 당신의 손에!",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back6.jpg",
+        "TitlePhoto" : "images/more_logo6.png"
+
+    },{
+        "Title" : "해리포터™",
+        "Sentence" : "새로운 해리 포터™ 레고세트!",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back7.jpg",
+        "TitlePhoto" : "images/more_logo7.png"
+
+    },{
+        "Title" : "마블",
+        "Sentence" : "마블 플레이 세트를 통해 뭔가 특별한 조립 체험과 더불어 좋아하는 수퍼 히어로로 변신해볼 기회!",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back8.jpg",
+        "TitlePhoto" : "images/more_logo8.png"
+
+    },{
+        "Title" : "마인크래프트™",
+        "Sentence" : "베스트셀러 온라인 게임 레고® 마인크래프트™와 함께 자녀의 창의력에 불을 붙여 주세요. 독특한 캐릭터와 지형으로 유명한 놀라운 마인크래프트™의 세계를 재현해보세요",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back9.jpg",
+        "TitlePhoto" : "images/more_logo9.png"
+
+    },{
+        "Title" : "미니언즈",
+        "Sentence" : "Bring Gru’s lovable henchmen to life with new Minions playsets.",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back10.jpg",
+        "TitlePhoto" : "images/more_logo10.png"
+
+    },{
+        "Title" : "레고® 슈퍼 마리오™",
+        "Sentence" : "온 가족이 좋아하는 인기 캐릭터를 현실 세계에서 만나볼 수 있는 레고® 슈퍼 마리오™ 소장품 장난감 조립 세트가 나왔어요! 고차원의 인터랙티브 레고 마리오™ 피겨가 등장하는 슈퍼 마리오 스타터팩을 통해 신나는 액션 게임을 시작해봐요.",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back11.jpg",
+        "TitlePhoto" : "images/more_logo11.png"
+
+    },{
+        "Title" : "토이 스토리 4",
+        "Sentence" : "내가 가장 좋아하는 캐릭터가 들어 있는 신제품 세트로 Disney•Pixar 토이 스토리 4의 개봉을 함께 축하해 보세요.",
+        "Go" : "쇼핑하기 >",
+        "Photo" : "images/more_back12.jpg",
+        "TitlePhoto" : "images/more_logo12.png"
+
+    }
+]

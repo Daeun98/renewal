@@ -1,0 +1,26 @@
+.row {max-width:1200px; margin:0 auto;}
+#header .nav ul li > a {color:#000;}
+
+h2.pageTitle {
+    background:url(../images/product_page_main.png) no-repeat bottom right;
+    height:300px; display:flex; justify-content: center; align-items: center;
+    font-size:50px; font-weight: bold; font-family: 'Source Sans Pro', sans-serif;
+}
+
+#legoproduct2 ul {overflow: hidden; margin-bottom:100px;}
+#legoproduct2 ul li {float: left; width: 33.33%; padding:5px; margin-bottom:20px;}
+#legoproduct2 ul li:nth-child(3n+1) {clear: both;}
+#legoproduct2 ul li .img {overflow: hidden; position:relative;}
+#legoproduct2 ul li .img .title {
+    position:absolute; top:0%; left:0%; text-align: center;
+    width:100%; background-color:rgba(0,0,0,0.3); padding:10px;
+}
+#legoproduct2 .info {padding:15px 0px; font-size:13px; height:150px; position: relative;}
+#legoproduct2 .info strong {font-size:17px; font-weight:bold;}
+#legoproduct2 .info p:nth-of-type(1) {margin:10px 0 30px 0; line-height:1.5;}
+#legoproduct2 .info p:nth-of-type(2) {
+    position: absolute; bottom: 0;
+    font-weight:bold; cursor: pointer; align-self: flex-end;}
+#legoproduct2 .info p:nth-of-type(2):hover {border-bottom: 1px solid #000;}
+
+

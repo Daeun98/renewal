@@ -1,0 +1,62 @@
+[
+    {
+        "New" : "레어제품",
+        "Title" : "콜로세움",
+        "Price" : 630000,
+        "Photo" : "images/product1.png"
+    },
+    {
+        "New" : "신제품",
+        "Title" : "다이애건 앨리",
+        "Price" : 499900,
+        "Photo" : "images/product2.png"
+    },
+    {
+        "New" : "독점제품",
+        "Title" : "디즈니 캐슬",
+        "Price" : 499900,
+        "Photo" : "images/product3.png"
+    },
+    {
+        "New" : "신제품",
+        "Title" : "디스커버리 우주왕복선",
+        "Price" : 239900,
+        "Photo" : "images/product4.png"
+    },
+    {
+        "New" : "독점제품",
+        "Title" : "닌자고 시티 정원",
+        "Price" : 419900,
+        "Photo" : "images/product5.png"
+    },
+    {
+        "New" : "독점제품",
+        "Title" : "Nintendo Entertainment System",
+        "Price" : 299900,
+        "Photo" : "images/product6.png"
+    },
+    {
+        "New" : "신제품",
+        "Title" : "경찰서",
+        "Price" : 239900,
+        "Photo" : "images/product7.png"
+    },
+    {
+        "New" : "레어제품",
+        "Title" : "해리포터 호그와트 성",
+        "Price" : 640000,
+        "Photo" : "images/product8.png"
+    },
+    {
+        "New" : "레어제품",
+        "Title" : "부가티 시론",
+        "Price" : 570000,
+        "Photo" : "images/product9.png"
+    },
+    {
+        "New" : "독점제품",
+        "Title" : "구피와 플루토",
+        "Price" : 20500,
+        "Photo" : "images/product10.png"
+    }
+]

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+
+
+body {background:url(../images/back2.jpg) no-repeat center;
+background-size: cover;}
+
+
+/* article1 */
+.article1 {height:100vh; position:relative;}
+.more {
+    position:fixed; z-index:999999; width:150px;
+    animation: air 20s infinite; transform:rotate(-15deg);
+    animation-timing-function:linear;
+}
+@keyframes air {
+    0% {bottom:100%; left:100%;}
+    50% {bottom:50%; left:50%;}
+    100% {bottom:0%; left:0%;}
+}
+.more img {width:100%;}
+.more span { margin-top:-18px; padding-left:20px;
+    color:#fff; font-size:25px; width:180px;
+    position:absolute; top:50%; left:100%;
+}
+
+
+.lego {position:absolute; bottom:0; float:left; width:50%;}
+
+.lego > .img {
+    background:url(../images/lego.png) no-repeat bottom;
+    background-size:cover; height:900px; position: relative;
+}
+.lego > .img > p {position:absolute; bottom:150px; left:37%; transform: rotate(-6deg);}
+.lego > .img > p img {width:200px;}
+.lego .eyes { position:absolute; top:380px; left:41%; transform: rotate(-3deg);}
+.lego .eyes .lefteye {
+    width:25px; height:25px; background:#000;
+    border-radius:50%;
+    display:inline-block; }
+.lego .eyes .righteye {
+    width:25px; height:25px; background:#000;
+    border-radius:50%;
+    display:inline-block;  margin-left:60px; }
+.lego .mouth {
+    position:absolute; top:440px; left:44%;
+    width:70px; height:25px; border-radius:50%;
+    border-bottom:12px solid #000; transform: rotate(-3deg);
+}
+.lego .mouth.on { top:420px; left:44%;
+    width:70px; height:80px; border-radius:0 0 50% 50%;
+    border-bottom:7px solid #000;
+    border-top:7px solid #000;
+    border-left:7px solid #000;
+    border-right:7px solid #000;
+}
+
+
+.series {float:right; width:50%; font-family: 'Source Sans Pro', sans-serif;}
+.series li:nth-child(1) {
+    background:url(../images/ch1.PNG) no-repeat center;
+    background-size:cover; height:25%; transition:all 0.3s;
+}
+.series li:nth-child(1):hover {background-color: rgba(24,243,173,0.3);}
+.series li:nth-child(2) {
+    background:url(../images/ch2.PNG) no-repeat center;
+    background-size:cover; height:25%; transition:all 0.3s;   
+}
+.series li:nth-child(2):hover {background-color: rgba(255,0,0,0.3);}
+.series li:nth-child(3) {
+    background:url(../images/ch3.PNG) no-repeat center;
+    background-size:cover; height:25%; transition:all 0.3s;
+}
+.series li:nth-child(3):hover {background-color: rgba(255,255,0,0.3);}
+.series li:nth-child(4) {
+    background:url(../images/ch4.PNG) no-repeat center;
+    background-size:cover; height:25%; transition:all 0.3s;
+}
+.series li:nth-child(4):hover {background-color: rgba(0,0,255,0.3);}
+.series li{cursor: pointer;}
+.series li .title {position:relative; text-align: center;
+    width:50%; height:242.25px;}
+.series .tit {font-size:80px; color:#fff;
+    left:50%; transform:translate(-50%,-50%);
+    position:absolute; top:50%; line-height:0.8;
+}

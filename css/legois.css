@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+
+
+body {background-color: #000;  font-family: 'Source Sans Pro', sans-serif;}
+
+
+.back {display: flex; opacity:0.3;
+    position:fixed; width:100%; overflow: hidden;
+    top: 0; bottom: 0; left: 0; right: 0;}
+.back .left {width:50%;}
+.back .right {width:50%; text-align: right;}   
+.back > div > p+p {margin-top:-200px;}
+.back > div img {width:350px; width: 50%;}
+.back > div > p > img:nth-child(2n) {margin-left:-150px;}
+
+.back .left > img:nth-child(1) {width:370px;
+    animation: hi 2s both 1s}
+.back .left > img:nth-child(2) {margin:0px 0 0 -150px; width:300px;
+    animation: hi 2s both 6s}
+.back .left > img:nth-child(3) {margin:-300px 0 0 50px; width:400px;
+    animation: hi 2s both 2s}
+.back .left > img:nth-child(4) {margin:-500px 0 0 -100px; width:300px;
+    animation: hi 2s both 4s}
+.back .left > img:nth-child(5) {margin:-600px 0 0 0px; width:370px;
+    animation: hi 2s both 5s}
+.back .left > img:nth-child(6) {margin:-400px 0 0 -500px; width:700px;
+    animation: hi 2s both 3s}
+
+.back .right > img:nth-child(1) {margin:0px 0 0 100px; width:320px;
+    animation: hi 2s both 3s}
+.back .right > img:nth-child(2) {margin:0px 0 0 -100px; width:280px;
+    animation: hi 2s both 2s}
+.back .right > img:nth-child(3) {margin:-400px 100px 0 40px; width:300px;
+    animation: hi 2s both 1s;}
+.back .right > img:nth-child(4) {margin:-250px 0 0 -250px; width:500px;
+    animation: hi 2s both 5s}
+.back .right > img:nth-child(5) {margin:-350px -50px 0 0px; width:400px;
+    animation: hi 2s both 6s}
+.back .right > img:nth-child(6) {margin:-200px 150px 0 -500px; width:300px;
+    animation: hi 2s both 4s}
+@keyframes hi {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+
+#section .bigbox {
+    position:fixed; width:600px;
+    top: 0; bottom: 0; left: 50%;
+    transform: translateX(-50%);
+}
+#section .sbox {
+    width: 600px;
+    margin: 100px auto;
+    position: relative;
+    perspective:130px;
+}
+.sbox > div {
+    width: 600px;
+    height:300px;
+    position: absolute;
+}
+.sbox .txt {
+    transform: perspective(1000px) rotateX(10deg);
+    opacity: 1; position: relative;
+    text-align: center;
+}
+.sbox .txt p {overflow: hidden;
+    color: #fff;
+    font: 1.3em arial;
+    position: absolute;
+    animation: bye 45s infinite;
+    animation-timing-function:linear;
+}
+@keyframes bye {
+    0% {top: 150%;}
+    80% {opacity: 1;}
+    90% {opacity: 0;}
+    100% {top:-50%; opacity: 0;}
+}
